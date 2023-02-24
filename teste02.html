@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamentos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Equipamentos</h1>
+    </header>
+    <section>
+        <div>
+            <p>Novo equipamento: <input type="text" name="eqp" id="eqp" minlength="6"> <input type="button" value="adicionar" onclick="add()"></p>
+            <p>Preço de aquisição: <input type="number" name="" id=""> <input type="button" value="adicionar"></p>
+            <p>Número de série: <input type="text" name="nds" id="nds"> <input type="button" value="adicionar" onclick="addnds()"></p>
+            <p>Data de fabricação: <input type="text" name="" id=""> <input type="button" value="adicionar"></p>
+            <p>Fabricante: <input type="text" name="fabri" id="fabri"> <input type="button" value="adicionar" onclick="addfabri()"></p>
+            <p>Equipamento:</p> <p id="listaeqp"></p> <input type="button" value="atualizar" onclick="read()">
+            <p>Número de série:</p> <p id="listands"></p> <input type="button" value="atualizar" onclick="readnds()">
+            <p>Fabricante:</p> <p id="listafabri"></p> <input type="button" value="atualizar" onclick="readFabri()">
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
